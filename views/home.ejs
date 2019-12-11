@@ -1,0 +1,12 @@
+<h1>Welcome Home</h1>
+<% if (butts) { %>
+  <p><%= butts.toLowerCase() %></p>
+<% } else { %>
+  <p>🦋</p>
+<% } %>
+<h3>Important Things</h3>
+<ul>
+  <% importantThings.forEach(function(importThing) { %>
+    <li><%= importThing.toUpperCase() %></li>
+  <% }) %>
+</ul>
